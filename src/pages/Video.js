@@ -1,31 +1,36 @@
-import { useLocation } from "react-router-dom";
+import { useState } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
+import YouTube from 'react-youtube';
 
 function Video(props) {
 
-
+    const [isItDone, setisItDone] = useState(false);
     const location = useLocation();
-    console.log(location.pathname);
+    const navigate = useNavigate();
     const pathName = location.pathname;
-    let result = pathName.replace("/video/", "");
+    let videoId = pathName.replace("/video/", "");
 
+    const opts = {
+        height: '640',
+        width: '1032',
+        playerVars: {
+            autoplay: 1,
+        },
+    };
 
-
+    function onVideoOnEnd(e) {
+        // access to player in all event handlers via event.target
+        console.log(e.target);
+        setisItDone(true);
+    }
     return (
 
         <div >
             <div className="flex items-center justify-center h-screen">
-
-                <iframe
-                    className="w-10/12 h-[612px]"
-                    src={`https://www.youtube.com/embed/${result}`}
-                    frameBorder="0"
-                    allowFullScreen
-                    title="Embedded youtube"
-                />
-
+                <YouTube videoId={videoId} opts={opts} onEnd={onVideoOnEnd} />
             </div>
+            {isItDone ? navigate("/fin") : console.log("false")}
         </div>
-
     );
 
 }

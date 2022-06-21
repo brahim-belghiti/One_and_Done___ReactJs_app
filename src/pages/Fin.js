@@ -1,4 +1,5 @@
-function Fin() {
+
+function Fin(props) {
 
 
 
