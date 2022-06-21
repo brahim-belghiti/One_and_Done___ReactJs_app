@@ -10,7 +10,7 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/video" element={<Video />} />
+          <Route path="/video/:id" element={<Video />} />
           <Route path="/fin" element={<Fin />} />
         </Routes>
       </Router>
