@@ -12,7 +12,7 @@ function Home(props) {
         let videoLink = "";
         switch (userInput[0]) {
             case "h":
-                if (userInput[9] === "m") {
+                if (userInput[8] === "m") {
                     const videoLink = userInput.substr(30);
                     setInputValue(videoLink);
                 } else {
