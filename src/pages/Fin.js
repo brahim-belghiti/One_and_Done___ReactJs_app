@@ -1,6 +1,10 @@
-
+import { useNavigate } from "react-router-dom";
 function Fin(props) {
 
+    const navigate = useNavigate();
+    window.onpopstate = function () {
+        navigate("/fin");
+    }
     return (
 
         <div>
