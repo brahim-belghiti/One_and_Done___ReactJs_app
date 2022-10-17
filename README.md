@@ -6,7 +6,7 @@ So this small minimalist web app is a solution to this problem. If you have to w
 this could be applied to watching a youtube tutorial to get some quick information and leave before being tempted to see the other videos.
 
 ### screenshots of the app:
-  - ![homepage](https://user-images.githubusercontent.com/91473510/175263223-ebaba552-5700-4f94-9af4-eba6fb46441a.png)
-  - ![homepage2](https://user-images.githubusercontent.com/91473510/175263251-5b8b69ca-3ff3-4b0a-a084-e6120f66c57f.png)
-  - ![videopage](https://user-images.githubusercontent.com/91473510/175263261-fb279205-dd05-45ac-afc9-1c8ebd68791f.png)
-  - ![fin](https://user-images.githubusercontent.com/91473510/175609692-85806950-fa61-4970-b57a-257588632141.png)
+   ![homepage](https://user-images.githubusercontent.com/91473510/196261828-404631b0-d639-40d4-958f-38f089a33a3d.png)
+   ![homepage2](https://user-images.githubusercontent.com/91473510/196261941-81003729-c416-4572-89c2-0af2f3f8cfd3.png)
+   ![videopage](https://user-images.githubusercontent.com/91473510/175263261-fb279205-dd05-45ac-afc9-1c8ebd68791f.png)
+   ![fin](https://user-images.githubusercontent.com/91473510/175609692-85806950-fa61-4970-b57a-257588632141.png)
